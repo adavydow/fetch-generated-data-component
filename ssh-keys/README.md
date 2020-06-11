@@ -1,0 +1,1 @@
+put ssh keys needed to access SynthesisAI github repositories here, named `id_rsa` and `id_rsa.pub` 

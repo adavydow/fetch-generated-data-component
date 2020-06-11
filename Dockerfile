@@ -22,8 +22,8 @@ RUN mkdir align
 COPY fetch_generated_data/__init__.py fetch_generated_data/__init__.py
 COPY setup.py setup.py
 RUN python setup.py egg_info && \
-	pip install --no-cache-dir -r fetch-generated-data.egg-info/requires.txt && \
-	rm -r fetch-generated-data.egg-info
+	pip install --no-cache-dir -r fetch_generated_data.egg-info/requires.txt && \
+	rm -r fetch_generated_data.egg-info
 RUN rm -r fetch_generated_data
 
 # install package
