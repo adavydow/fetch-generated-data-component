@@ -18,7 +18,7 @@ setup(
     python_requires=">=3.7.0",
     install_requires=[
         "numpy==1.18.5",
-        "opencv-python==4.2.0.34",
+        "opencv-python==4.8.1.78",
         "argparse-path @ git+ssh://git@github.com/Synthesis-AI-Dev/argparse-path#egg=argparse-path-0.1",
     ],
     include_package_data=True,
